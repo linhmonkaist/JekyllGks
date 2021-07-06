@@ -1,0 +1,38 @@
+title: Welcome to Linh Mon website
+email: nguyenlinh@kaist.ac.kr
+description: >- # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.để các 
+  bạn có thể apply học bổng GKS và làm trò gì đó  
+baseurl: "/jekyllGks" # the subpath of your site, e.g. /blog
+url: "http://linhmon.com" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: LinhMonKGSP
+github_username:  linhmon
+facebook_username: LinhMonKGSP
+instagram_username: _linh_mon
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
