@@ -1,20 +1,19 @@
+theme: minima
 title: Linh Mon
-email: nguyenlinh@kaist.ac.kr
+email: nguyenlinhmon@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  You can edit this line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-  Website dành cho các bạn đang mong muốn apply học bổng để du học nước ngoài. website hỗ trợ các vấn đề liên quan đến học bổng chính phủ Hàn Quốc,
-  học bổng các trường đại học tại Hàn Quốc và offer các khóa mentor program.
+  Đây là website riêng của mình- Linh Mon. Đây là nơi chia sẻ những kinh nghiệm của mình trong việc apply học bổng chính phủ Hàn Quốc 
+  để các bạn có nhiều kinh nghiệm hơn trong việc apply GKS scholarship. Đồng thời, mình cũng cung cấp các gói mentor dành cho các bạn 
+  muốn apply học bổng chính phủ Hàn Quốc, học bổng các trường đại học như KAIST, SNU, Yonsei...
 baseurl: "/JekyllGks" # the subpath of your site, e.g. /blog
 url: "http://linhmon.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  linhmon
 facebook_username: LinhMonKGSP
 instagram_username: _linh_mon
+youtube_username: LinhMon
 
 # Build settings
-theme: minima
-plugins:
-  - jekyll-feed
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -35,3 +34,12 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+locale: "en-US" # See available languages in _data/sitetext.yml
+
+analytics:
+  google: #Google Analytics tracking code here
+
+collections:
+  portfolio:
+
+markdown: kramdown
